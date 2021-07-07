@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{background-color: rgb(19, 120, 160);}
+
+
+/* 
+#navbarSupportedContent{margin-left: 500px;} */
+#navbarSupportedContent ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 50px 0px 0px;
+    color:white
+    }
+ #navbarSupportedContent ul li a:hover{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 50px 0px 0px;
+        text-decoration: underline;
+        }
+#title{
+    font-size: 30px;
+    font-weight: 1500px;
+    font-variant: small-caps;
+    color: rgb(19, 120, 160);
+background-color: whitesmoke;
+margin: 10px;
+border: 1px whitesmoke solid;
+padding: 8px;
+border-radius: 20%;}
+
+/* .commonfooter{
+    min-height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(11, 49, 65),rgba(4,9,30,0.7)), url("C:\Users\MOORTHI\Desktop\first angular\paradisetravels\src\assets\slider-img.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+
+    
+}
+
+.commonfooter div{
+    
+    width: 350px;
+    margin: 10px 45px 0px;
+    color: whitesmoke;
+    float: left;
+    /* background-color: violet;
+} */
+
+
+/* 
+.commonfooter div ul li a{text-decoration: none;text-align: left; color: whitesmoke;}
+.commonfooter div ul li a:hover{text-decoration: underline; color: rgb(19, 120, 160); ;} */
+
+#footer{background-color: black;}
+.navbar .container-fluid div{
+    width: 400px;
+    text-align: center;
+}
+.navbar .container-fluid div h4 {color: whitesmoke; font-weight: bolder;}
+.navbar .container-fluid div p {color: whitesmoke;}
+.footeruselinks {color: whitesmoke; list-style-type: none; text-decoration: none;  text-align: left;}
+.footeruselinks li a{color: whitesmoke; text-decoration: none;}
+.footeruselinks li a:hover{color:rgb(19, 120, 160); text-decoration: underline;}
+#h4{padding-top: 40px; font-style: italic; font-size: 40px;color: rgb(19, 120, 160); font-weight: initial;}
+
+
+@media screen and (max-width:600px){
+    #title{
+        margin: 0px;
+        font-weight: 1000px;
+        font-size: 22px;
+    }
+
+    #navbarSupportedContent ul li a{ font-size: 16px;}
+    #navbarSupportedContent ul li a:hover{font-size: 16px;}
+
+    .navbar .container-fluid div h4{font-size: 20px;}
+    .navbar .container-fluid div{align-items: center;}
+    #h4{padding-top: 0px; padding: 10px 0px;}
+    .footeruselinks{text-align: center;}
+    .navbar .container-fluid div p{font-size: 15px;}
+}

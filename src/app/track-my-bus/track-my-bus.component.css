@@ -1,0 +1,70 @@
+.headtrackmybus{color: whitesmoke;
+background-color:black;
+text-align: center;
+padding: 10px;}
+
+.trackbusbgimg{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(11, 49, 65),rgba(4,9,30,0.7)), url("src\assets\slider-img.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.trackmybususerdetails{
+    
+    background-color: transparent;
+    position: absolute;
+    top: 35%; left: 38%;
+    display: flex;
+}
+.trackmybususerdetails div{
+    padding: 5px;
+}
+
+#TMBpnr{
+    width: 200px;
+    color: whitesmoke;
+}
+#TMBpnr mat-label{color: whitesmoke;} 
+#TMBbutton {
+    padding-top: 15px; 
+}
+
+
+#TMBbutton button{
+    background-color: whitesmoke; color: black;
+}
+
+#TMBbutton button:hover{
+    background-color: rgb(19, 120, 160) ;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:600px)
+{
+    .trackbusbgimg{
+        min-height: 50vh;
+        width: 100%;
+    }   
+
+    #div2 , h5 {
+        font-size: 13px;
+    }
+    .trackmybususerdetails{
+        left: 25%;
+        display: unset;
+    }
+    #TMBbutton{
+        text-align: center;
+        padding-top: 0px; 
+    }
+    #TMBpnr{width: 200px;}
+    .trackmybususerdetails div{
+        padding: 0px;
+    }
+
+   
+    
+}

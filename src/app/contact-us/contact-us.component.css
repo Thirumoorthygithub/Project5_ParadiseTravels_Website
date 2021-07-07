@@ -1,0 +1,17 @@
+.headcontact{
+    color: whitesmoke;
+background-color:black;
+text-align: center;
+padding: 10px;
+}
+
+.area{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(rgb(11, 49, 65),rgb(11, 49, 65));
+    color: whitesmoke;
+
+    
+}
+.area div h6{font-weight: bolder;}
+.area div p {font-size: small;} 

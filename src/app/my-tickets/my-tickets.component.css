@@ -1,0 +1,90 @@
+.myticketsbgimg{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(11, 49, 65),rgba(4,9,30,0.7)), url("src\assets\annie-spratt-256172-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.headmytickets{
+    color: whitesmoke;
+background-color:black;
+text-align: center;
+padding: 10px;
+}
+#MTdiv2{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+.Myticketsuserdetails{
+    background-color: transparent;
+    position: absolute;
+    top: 35%; left: 28%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.db{
+    display: flex;
+    position: absolute;
+    top: 35%; left: 43%;
+    
+}
+.db div{padding: 0px 10px;}
+
+#MTpnr{
+    width: 200px;
+    color: whitesmoke;
+}
+#MTpnr mat-label{color: whitesmoke;}
+
+#MTbutton{
+    padding-top: 10px;
+}
+
+#MTbutton button{
+    background-color: whitesmoke; color: black;
+}
+#MTbutton button:hover{
+    background-color: rgb(19, 120, 160); color:whitesmoke;
+}
+#MTbutton button a:hover{
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width:600px){
+    .myticketsbgimg{
+        min-height: 50vh;
+    }
+
+    #MTdiv2 , h5{
+        font-size: 13px;
+    }
+
+    #MTdiv2{
+        padding-top: 15px;
+    }
+
+    .Myticketsuserdetails{
+        display: unset;
+        left: 25%;
+    }
+
+    #MTbutton{
+        padding-top: 2px;
+    }
+    
+
+    .db{
+        top: 55%;
+       left: 7%;
+    }
+
+    .db div{padding: 0px 7px;}
+
+}

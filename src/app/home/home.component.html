@@ -1,0 +1,94 @@
+<section class="header">
+
+</section>
+
+<section class="header2" data-aos="fade-up">
+  <mat-card class="userinput">
+    
+    <div >
+       <mat-form-field  id="homepnr" >
+         <mat-label >Select From</mat-label> 
+         <input matInput>
+     </mat-form-field>
+   </div>
+  
+   <span style="padding-top: 20px;"><i class="fas fa-arrows-alt-h"></i></span>
+    
+   <div>
+        <mat-form-field id="homepnr">
+          <mat-label>Select Destination</mat-label>
+          <input matInput type="search">
+       </mat-form-field>
+   </div>
+  
+   <div>
+        <mat-form-field id="homepnr">
+          <mat-label>Journey date</mat-label>
+          <input matInput [matDatepicker]="picker">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+  </div>
+  
+  <div>
+        <mat-form-field id="homepnr">
+          <mat-label>Return date</mat-label>
+          <input matInput [matDatepicker]="ticker">
+          <mat-datepicker-toggle matSuffix [for]="ticker"></mat-datepicker-toggle>
+          <mat-datepicker #ticker></mat-datepicker>
+        </mat-form-field>
+  </div>
+  
+  <div  id="homebutton">
+        <button mat-raised-button>Search</button>
+  </div>
+  
+  
+  </mat-card>
+</section>
+
+
+
+<section class="aboutus"> 
+
+  <div>
+    <h4>AboutUs</h4>
+    <h5>Book Bus Tickets with PARADISE TRAVELS</h5>
+    <p>Lakhs of people travel on buses daily in India, for them TAT Travels is a leading bus tickets booking platform with more than 135 bus routes in TamilNadu.
+
+      We provide exclusive discounts and offers to our customers and our online bus ticket booking system is very user friendly for customer convenience. Book bus tickets to anywhere in TamilNadu from over 135 bus routes including Sleeper, AC, Semi luxury,
+       Luxury, Scania with multiple payment options like, Debit/Credit cards, Net Banking etc.,</p>
+       <h5>Bus Tickets</h5>
+       <p>TAT Travels providing simpler and smarter way of bus booking with a wide range of facilities, right from choosing your pickup point to your preferred 
+         choice of seat based on your convenience.</p>
+  </div>
+
+</section>
+
+<nav class="navbar navbar-dark " id="footer" data-aos="fade-up">
+  <div class="container-fluid" data-aos="fade-up">
+   
+      <div>
+      <h4>REACH US</h4>
+      <p>Paradise Travels
+          Shop No 42, Koyambedu Omni Bus Stand,
+          Koyambedu, Chennai - 600106, Mobile : 9566001596, 9962720511 Email:paradisetravels@gmail.com</p>
+      </div>
+
+    <div >
+      <h4  id="h4">Enjoy Your Journey</h4>
+    </div>
+
+    <div>
+        <ul class="footeruselinks"> 
+          <li> <h4 >USE FULL LINKS</h4></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Teams & Conditions</a></li>
+          <li><a href="">Feedback</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Boarding Places</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>

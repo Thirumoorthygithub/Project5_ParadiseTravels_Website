@@ -1,0 +1,57 @@
+.loginbgimg{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(11, 49, 65),rgba(4,9,30,0.7)), url("C:\Users\MOORTHI\Desktop\first angular\paradisetravels\src\assets\office buses.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headlogin{
+    color: whitesmoke;
+    background-color:black;
+    text-align: center;
+    padding: 10px;
+}
+#loginhead2{ text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;}
+
+.logindiv{
+    position: absolute;
+    top: 35%; left: 39%;
+    }
+
+.logindiv div{
+        text-align: center;
+    }
+
+  #loginpnr{
+      width: 300px;
+      color: whitesmoke;
+  }  
+  #loginpnr , mat-label{
+    color: whitesmoke;
+  }
+  #loginbutton button{
+    background-color: whitesmoke; color: black;
+  }
+  #loginbutton button:hover{
+      background-color: rgb(19, 120, 160) ;
+      color: whitesmoke;
+  }
+
+  @media screen and (max-width:600px){
+    .loginbgimg{min-height: 50vh;}
+    .logindiv{
+        left: 26%;
+    }
+    #loginpnr{
+        width: 200px;
+    }
+    #loginhead2 h5{
+        font-size: 13px;
+    }
+
+  }
+  

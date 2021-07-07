@@ -1,0 +1,88 @@
+
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image:url("src/assets/main.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+.header2{
+    background-color: rgb(19, 120, 160) ;
+    }
+
+ .userinput{
+    width: 100%;
+    background-color: rgb(19, 120, 160) ;
+    display: flex; 
+    justify-content: center;
+ }
+
+.userinput div{
+    margin: 0 auto;
+}
+#homepnr{
+    width: 200px;
+}
+#homepnr mat-label{color: whitesmoke;}
+#homebutton{padding-top: 13px;}
+#homebutton button{
+    background-color: whitesmoke;
+    color: black;
+}
+#homebutton button:hover{
+    background-color: rgb(192, 32, 99);
+     color:whitesmoke;
+}
+
+
+.aboutus{
+    min-height: 80vh;
+    width: 100%;
+    background-image:url("src/assets/bus2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.aboutus div{
+    width: 600px;
+    position: absolute;
+    left: 1%; top:3%;
+    padding: 5px;
+    text-align: center;
+}
+.aboutus div p{
+    font-weight: bolder;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        min-height: 50vh;
+    }
+    .header2{padding: 10px;}
+     .userinput
+    {   display: contents;
+    }
+
+    .userinput div{
+        text-align: center;
+        margin: 0 0px;
+    }
+    .userinput span{
+        display: none;
+    }
+    .aboutus{
+        min-height: 50vh;
+        background-image: linear-gradient(rgb(6, 86, 121),rgba(4,9,30,0.7)), url("src/assets/bus2.jpg");
+    }
+    
+.aboutus div{
+    width: 450px;
+    color: whitesmoke;
+    
+}
+
+.aboutus div p{font-size: 10px;}
+
+}
